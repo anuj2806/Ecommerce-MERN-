@@ -10,7 +10,7 @@ import {
 import { useState } from 'react';
 const Header = () => {
     const [isOpen,setIsOpen]=useState<boolean>(false)
-    const user = {_id:"xyz",role:""}
+    const user = {_id:"",role:""}
     const logoutHandler = () =>{
         setIsOpen(false)
     }
